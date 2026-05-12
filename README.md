@@ -1,6 +1,6 @@
 # Smart Bus Route Assistant for Stoke-on-Trent
 
-> A Retrieval-Augmented Generation (RAG) chatbot that answers natural-language questions about bus routes, stops, and fares using a structured CSV dataset — no live GPS, no real-time APIs required.
+> A Retrieval-Augmented Generation (RAG) chatbot that answers natural-language questions about bus routes, stops, and fares using a structured CSV dataset, no live GPS, no real-time APIs required.
 
 This repository contains the implementation for my **MSc Data Science dissertation** at the University of Wolverhampton (June 2025): *"Development of Transport Assistant Chatbot Using RAG for Bus Services in Stoke-on-Trent."*
 
@@ -10,7 +10,7 @@ This repository contains the implementation for my **MSc Data Science dissertati
 
 Most public-transport chatbots either rely on expensive real-time GPS feeds or fall back on rigid rule-based menus that break the moment a user phrases a question naturally. This project takes a different approach: it pairs a **static, structured bus-route dataset** with a **hybrid RAG + rule-based pipeline** so users can ask questions like *"How do I get from Hanley to Shelton?"* or *"What's the last stop of bus 9?"* and get accurate, sourced answers in plain English.
 
-The system is designed to be cheap to run, easy to update (swap the CSV, done), and accessible to commuters who struggle with conventional transit apps — particularly older adults and non-native English speakers.
+The system is designed to be cheap to run, easy to update (swap the CSV, done), and accessible to commuters who struggle with conventional transit apps, particularly older adults and non-native English speakers.
 
 ## Key Features
 
